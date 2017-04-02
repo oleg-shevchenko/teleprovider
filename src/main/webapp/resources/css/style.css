@@ -1,0 +1,20 @@
+body {
+    background: url(/resources/images/background_2.jpg) repeat, #fc0;
+}
+/*.table {*/
+/*border: 0.5px solid #000000;*/
+/*border-color: black !important;*/
+/*}*/
+.table-bordered > thead > tr > th,
+.table-bordered > tfoot > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td {
+    border: 2.0px solid #000000;
+    border-color: black !important;
+}
+
+.table-bordered > tbody > tr > th,
+.table-bordered > tbody > tr > td, d {
+    border: 0.5px solid #000000;
+    border-color: black !important;
+}
